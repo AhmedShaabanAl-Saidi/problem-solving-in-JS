@@ -26,7 +26,7 @@ function removeSpaces(str) {
 
 console.log(removeSpaces("Hell    o Wo    rld !"));
 
-// 4-Reversing Words in a String
+// 5-Reversing Words in a String
 function reverses(str) {
   return str.split(" ").reverse().join(" ");
 }
