@@ -20,10 +20,15 @@ function removeChar(str) {
 console.log(removeChar("AhmedShaaban"));
 
 // 4-Remove String Spaces
-function removeSpaces(str)
-{
-  return str.split(" ").join("")
+function removeSpaces(str) {
+  return str.split(" ").join("");
 }
 
 console.log(removeSpaces("Hell    o Wo    rld !"));
 
+// 4-Reversing Words in a String
+function reverses(str) {
+  return str.split(" ").reverse().join(" ");
+}
+
+console.log(reverses("Hello World"));
