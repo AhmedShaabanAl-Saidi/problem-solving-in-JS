@@ -18,3 +18,12 @@ function removeChar(str) {
 }
 
 console.log(removeChar("AhmedShaaban"));
+
+// 4-Remove String Spaces
+function removeSpaces(str)
+{
+  return str.split(" ").join("")
+}
+
+console.log(removeSpaces("Hell    o Wo    rld !"));
+
