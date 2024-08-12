@@ -78,3 +78,18 @@ function getOpposite(num) {
 }
 
 console.log(getOpposite(-5));
+
+// 10-sum of positive
+function sumPositive(arr) {
+  let sumNums = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 0) {
+      sumNums += arr[i];
+    }
+  }
+
+  return sumNums;
+}
+
+console.log(sumPositive([5, 10, 5, -5, -2]));
