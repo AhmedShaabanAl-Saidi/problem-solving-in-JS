@@ -32,3 +32,14 @@ function reverses(str) {
 }
 
 console.log(reverses("Hello World"));
+
+// 6-even_odd
+function evenOdd(num) {
+  if (num % 2 == 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+
+console.log(evenOdd(4));
