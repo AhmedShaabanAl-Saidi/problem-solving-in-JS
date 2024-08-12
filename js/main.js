@@ -58,3 +58,15 @@ function repeatStr(num, str) {
 }
 
 console.log(repeatStr(5, " Ahmed "));
+
+// 8-Jenny_s-message
+function greet(name) {
+  if (name == "Johnny") {
+    return "Hello, my Love!";
+  } else {
+    return "Hello, " + name;
+  }
+}
+
+console.log(greet("Johnny"));
+console.log(greet("Ahmed"));
