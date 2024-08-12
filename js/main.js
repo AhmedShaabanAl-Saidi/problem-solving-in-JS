@@ -70,3 +70,11 @@ function greet(name) {
 
 console.log(greet("Johnny"));
 console.log(greet("Ahmed"));
+
+// 9-get-opposite
+function getOpposite(num) {
+  // return num * -1;
+  return -num;
+}
+
+console.log(getOpposite(-5));
