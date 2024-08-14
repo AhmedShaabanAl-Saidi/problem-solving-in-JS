@@ -103,3 +103,20 @@ function doubleChar(char) {
 }
 
 console.log(doubleChar("Ahmed"));
+
+// 12-basicMathematical
+function basicMathematical(operator, value1, value2) {
+  // if (operator == "+") {
+  //   return value1 + value2;
+  // } else if (operator == "-") {
+  //   return value1 - value2;
+  // } else if (operator == "*") {
+  //   return value1 * value2;
+  // } else if (operator == "/") {
+  //   return value1 / value2;
+  // }
+
+  return eval(value1 + operator + value2);
+}
+
+console.log(basicMathematical("*", 2, 3));
