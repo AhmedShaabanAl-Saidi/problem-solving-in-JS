@@ -93,3 +93,13 @@ function sumPositive(arr) {
 }
 
 console.log(sumPositive([5, 10, 5, -5, -2]));
+
+// 11-Double char
+function doubleChar(char) {
+  return char
+    .split("")
+    .map((ele) => ele.repeat(2))
+    .join("");
+}
+
+console.log(doubleChar("Ahmed"));
