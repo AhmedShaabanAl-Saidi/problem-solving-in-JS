@@ -146,3 +146,16 @@ function boolToWord(bool) {
 }
 
 console.log(boolToWord(true));
+
+// 15-find needle-in-the-haystack
+function findNeedle(arr) {
+  // for (let i = 0; i < arr.length; i++) {
+  //   if (arr[i] == "needle") {
+  //     return "found the needle at position " + i;
+  //   }
+  // }
+
+  return "found the needle at position " + arr.indexOf("needle");
+}
+
+console.log(findNeedle(["Ahmed", "Ali", "needle", "mo", "Amr", "yossef"]));
