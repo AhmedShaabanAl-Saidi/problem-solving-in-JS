@@ -120,3 +120,16 @@ function basicMathematical(operator, value1, value2) {
 }
 
 console.log(basicMathematical("*", 2, 3));
+
+// 13-convert-number-to-reversed-array-of-digits
+function reversDigits(num) {
+  let reversed = num
+    .toString()
+    .split("")
+    .map((ele) => Number(ele))
+    .reverse();
+
+  return reversed;
+}
+
+console.log(reversDigits(123456789));
