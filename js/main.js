@@ -133,3 +133,16 @@ function reversDigits(num) {
 }
 
 console.log(reversDigits(123456789));
+
+// 14-convert-boolean-values-to-string
+function boolToWord(bool) {
+  // if (bool == true) {
+  //   return "Yes";
+  // } else {
+  //   return "No";
+  // }
+
+  return bool ? "Yes" : "No";
+}
+
+console.log(boolToWord(true));
