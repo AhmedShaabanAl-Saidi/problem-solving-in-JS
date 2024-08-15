@@ -186,3 +186,14 @@ function GetBonus(salary, bonus) {
 }
 
 console.log(GetBonus(10, true));
+
+// 19-CountTheMonkeys
+function countTheMonkeys(num) {
+  let = newArr = [];
+  for (let i = 1; i <= num; i++) {
+    newArr.push(i);
+  }
+  return newArr;
+}
+
+console.log(countTheMonkeys(5));
