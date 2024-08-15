@@ -161,9 +161,15 @@ function findNeedle(arr) {
 console.log(findNeedle(["Ahmed", "Ali", "needle", "mo", "Amr", "yossef"]));
 
 // 16-KeepHydrated
-function keepHydrated(time)
-{
-  return Math.floor(time /2)
+function keepHydrated(time) {
+  return Math.floor(time / 2);
 }
 
 console.log(keepHydrated(5));
+
+// 17-SentenceSmash
+function sentenceSmash(arr) {
+  return arr.join(" ");
+}
+
+console.log(sentenceSmash(["Hi", "My", "Name", "is", "Ahmed"]));
