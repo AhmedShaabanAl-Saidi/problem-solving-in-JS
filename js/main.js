@@ -173,3 +173,16 @@ function sentenceSmash(arr) {
 }
 
 console.log(sentenceSmash(["Hi", "My", "Name", "is", "Ahmed"]));
+
+// 18-GetBonus
+function GetBonus(salary, bonus) {
+  // if (bonus == true) {
+  //   return "€" + salary * 10;
+  // } else {
+  //   return "€" + salary;
+  // }
+
+  return bonus ? `€${salary * 10}` : `€${salary}`;
+}
+
+console.log(GetBonus(10, true));
