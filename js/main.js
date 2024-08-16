@@ -210,3 +210,10 @@ function invertValue(arr) {
 }
 
 console.log(invertValue([1, 5, 7, 6, -4, 5, 4, -6]));
+
+// 21-Printing Array
+function printingArray(arr) {
+  return arr.join();
+}
+
+console.log(printingArray(["A", "h", "m", "e", "d"]));
