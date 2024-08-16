@@ -264,3 +264,10 @@ function SwitchItUP(num) {
 }
 
 console.log(SwitchItUP(8));
+
+// 24-Volume of a Cuboid
+function volumeCuboid(length, width, height) {
+  return length * width * height;
+}
+
+console.log(volumeCuboid(10, 10, 10));
