@@ -217,3 +217,20 @@ function printingArray(arr) {
 }
 
 console.log(printingArray(["A", "h", "m", "e", "d"]));
+
+// 22-Removing Elements
+function removingElements(arr) {
+  // let newArr = [];
+  // for (let i = 0; i < arr.length; i++) {
+  //   if (i % 2 == 0) {
+  //     newArr.push(arr[i]);
+  //   }
+  // }
+  // return newArr;
+
+  return arr.filter((ele,i) => i % 2 == 0)
+}
+
+console.log(
+  removingElements(["keep", "remove", "keep", "remove", "keep", "remove"])
+);
