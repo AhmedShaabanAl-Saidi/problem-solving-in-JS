@@ -197,3 +197,16 @@ function countTheMonkeys(num) {
 }
 
 console.log(countTheMonkeys(5));
+
+// 20-InvertValue
+function invertValue(arr) {
+  // let newArr = [];
+  // for (let i = 0; i < arr.length; i++) {
+  //   newArr.push(arr[i] * -1);
+  // }
+  // return newArr;
+
+  return arr.map((ele) => ele * -1);
+}
+
+console.log(invertValue([1, 5, 7, 6, -4, 5, 4, -6]));
